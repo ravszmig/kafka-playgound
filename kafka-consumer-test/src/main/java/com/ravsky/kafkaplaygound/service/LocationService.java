@@ -1,8 +1,9 @@
-package main.java.com.ravsky.kafkaplaygound.service;
+package com.ravsky.kafkaplaygound.service;
 
-import com.ravsky.kafkaplaygound.constant.AppConstant;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
+
+import com.ravsky.kafkaplaygound.constant.AppConstant;
 
 @Service
 public class LocationService {
